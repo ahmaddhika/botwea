@@ -2,7 +2,7 @@
 <img alt="GitHub" src="https://img.shields.io/badge/WHATSAPP%20BOT-25D32?style=for-the-badge&logoColor=darkgreen"/>
 <br><br>
   
-> A whatsapp bot made using adiwajshing/Baileys library
+> Pengodean ulang dari WhatsApp bot github.com/justpiple
  <p>
   <img src ="https://img.shields.io/badge/npm-v7.20.3-green.svg" />
   <img src="https://img.shields.io/badge/node-%3E=16.6.1-darkgreen.svg" />
@@ -22,7 +22,7 @@
 ### Install ⬇️
 
 ```bash
-> git clone https://github.com/justpiple/whatsapp-bot/
+> git clone https://github.com/inirey/botwea
 > cd whatsapp-bot
 > npm i
 ```
@@ -35,7 +35,7 @@
 
 #### Change `config.json` 
 ##### Register in <b>[zeks.xyz](https://zeks.xyz)</b> to get apiKey then enter to zeksKey in `config.json`
-### Start ✅
+### Start 
 
 ```bash
 > npm start [session name] [--options]
