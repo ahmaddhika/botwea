@@ -904,7 +904,7 @@ module.exports = handle = (client, Client) => {
  	                 const mediaMsg = await client.prepareMessageMedia(await getBuffer(configs.imgUrl), 'imageMessage')
                      const buttonMessage = {
                            contentText: menu(data.prefix, data.pushname),
-                           footerText: '𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓',
+                           footerText: 'Design By Rey ❤️',
                                 "contextInfo": {
 									  mentionedJid: [configs.ownerList[0]],
                                       participant: sender,
@@ -915,14 +915,14 @@ module.exports = handle = (client, Client) => {
                                      {
                                        buttonId: `${data.prefix}info`,
                                        buttonText: {
-                                          displayText: "📒 𝐈𝐍𝐅𝐎"
+                                          displayText: "INFO"
                                         },
                                          "type": "RESPONSE"
                                      },
                                      {
                                        buttonId: `${data.prefix}owner`,
                                        buttonText: {
-                                          displayText: "🪀 𝐎𝐖𝐍𝐄𝐑"
+                                          displayText: "OWNER"
                                         },
                                          "type": "RESPONSE"
                                      },
