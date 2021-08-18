@@ -913,6 +913,13 @@ module.exports = handle = (client, Client) => {
                                      },
                                      buttons: [
                                      {
+                                      buttonId: `${data.prefix}stickermenu`,
+                                      buttonText: {
+                                          displayText: "STICKER MENU"
+                                       },
+                                         "type": "RESPONSE"
+                                    },
+                                    {
                                       buttonId: `${data.prefix}limit`,
                                       buttonText: {
                                           displayText: "CEK LIMIT"
