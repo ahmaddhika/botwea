@@ -181,7 +181,7 @@ module.exports = handle = (client, Client) => {
 			const mediaMsg = await client.prepareMessageMedia(await getBuffer(res.data.url), 'imageMessage')
             const buttonMessage = {
 			      contentText: 'Waifu',
-				  footerText: 'Press the button below to get a random waifu image',
+				  footerText: 'klik again untuk menampilkan lagi',
                         "contextInfo": {
                               participant: data.sender,
                               stanzaId: data.message.key.id,
@@ -191,7 +191,7 @@ module.exports = handle = (client, Client) => {
                                 {
                                  buttonId: `${data.prefix}waifu`,
                                  buttonText: {
-                                    displayText: `⏯️ Get again`
+                                    displayText: `again`
                                   },
                                   "type": "RESPONSE"
                                 },
