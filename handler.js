@@ -913,6 +913,13 @@ module.exports = handle = (client, Client) => {
                                      },
                                      buttons: [
                                      {
+                                      buttonId: `${data.prefix}owner`,
+                                      buttonText: {
+                                          displayText: "OWNER BOT"
+                                       },
+                                         "type": "RESPONSE"
+                                    },
+                                    {
                                       buttonId: `${data.prefix}stickermenu`,
                                       buttonText: {
                                           displayText: "STICKER MENU"
@@ -929,7 +936,7 @@ module.exports = handle = (client, Client) => {
                                     {
                                       buttonId: `${data.prefix}info`,
                                       buttonText: {
-                                          displayText: "INFO"
+                                          displayText: "INFO BOT"
                                         },
                                          "type": "RESPONSE"
                                      },
